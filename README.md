@@ -99,22 +99,3 @@ Lat: LATITUDE  Lng: LONGITUDE  Sats: N
 
 Phone notification: **GPS tracker location**, with a Google Maps link. Tapping it opens the map.
 
-## Limitations
-
-- Tested in simulation only; it has not been run on physical hardware.
-- The NEO-6M needs a clear view of the sky. Indoors it often cannot get a fix.
-- Real GPS readings drift by a few meters, so coordinates can change slightly even when stationary.
-- Wi-Fi only: the tracker works only within range of a Wi-Fi network.
-- Alerts use plain HTTP to the public ntfy.sh server, so treat the content as non-private.
-
-## Possible improvements
-
-- Send an alert only when the device has moved a set distance
-- Add a battery and charging board for portable use
-- Use a cellular module (such as SIM7600) for tracking away from Wi-Fi
-- Add a geofence alert when the device leaves a defined area
-- Self-host ntfy for full privacy
-
-## License
-
-MIT License. Add a `LICENSE` file to the repository to apply it.
