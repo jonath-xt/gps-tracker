@@ -4,7 +4,7 @@ An ESP32-based GPS tracker that reads location data from a NEO-6M GPS module and
 
 The project was built and tested in the **Wokwi simulator**, so no physical hardware is needed to try it.
 
-**Simulation:** YOUR_WOKWI_LINK
+**Simulation:** https://wokwi.com/projects/480016485491910657
 
 ---
 
